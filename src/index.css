@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 .input {
+<<<<<<< HEAD
   @apply p-1 outline-none border-gray-400 border-solid border-2 rounded-md transform duration-300 focus:border-gray-800;
 }
 
@@ -21,3 +22,23 @@
 .cont {
   @apply h-screen bg-slate-400 flex items-center justify-center;
 }
+=======
+    @apply p-1 outline-none border-gray-400 border-solid border-2 rounded-md transform duration-300 focus:border-gray-800
+}
+
+.btn {
+    @apply text-white bg-fuchsia-950 p-1 w-full  rounded-md
+}
+
+.card {
+    @apply bg-slate-100 py-8 px-10 flex flex-col items-center justify-center space-y-3 rounded-xl shadow-lg 
+}
+
+.register {
+    @apply font-bold text-fuchsia-950 text-2xl 
+}
+
+.cont {
+    @apply h-screen bg-slate-400 flex items-center justify-center
+}
+>>>>>>> 804ebafc0d46bb8e94fa881f57e5dffaaa053a22
